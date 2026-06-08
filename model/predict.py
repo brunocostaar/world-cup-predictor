@@ -14,6 +14,7 @@ df_teams = None
 team_features = None
 rf_model = None
 poisson_model = None
+lambda_cache = {}
 
 def load_prediction_models():
     """Lazy loads prediction models and team features from disk to avoid boot import errors."""
@@ -39,7 +40,12 @@ def get_match_lambda(team_A, team_B):
     """
     Calculates expected goals (lambdas) for team_A and team_B in a match.
     Uses a symmetric Poisson regression model predicting goals scored based on feature diffs.
+    Uses a cache to avoid calling model.predict millions of times.
     """
+    pair = (team_A, team_B)
+    if pair in lambda_cache:
+        return lambda_cache[pair]
+        
     load_prediction_models()
     feat_A = team_features[team_A]
     feat_B = team_features[team_B]
@@ -62,7 +68,9 @@ def get_match_lambda(team_A, team_B):
     
     lambda_B = poisson_model.predict([[rank_diff_B, log_value_ratio_B, form_diff_B, fc26_diff_B, qualifiers_ppg_diff_B]])[0]
     
-    return max(0.1, lambda_A), max(0.1, lambda_B)
+    result = (max(0.1, lambda_A), max(0.1, lambda_B))
+    lambda_cache[pair] = result
+    return result
 
 def predict_match(team_A, team_B, is_knockout=False):
     """
@@ -276,6 +284,13 @@ def run_monte_carlo(n_simulations=1000):
     }
     
     for sim in range(n_simulations):
+        if (sim + 1) % 5000 == 0 or sim == 0 or sim == n_simulations - 1:
+            pct = (sim + 1) / n_simulations * 100
+            bar = "█" * int(pct / 5) + "░" * (20 - int(pct / 5))
+            print(f"\rProgress: [{bar}] {pct:.1f}% ({sim + 1}/{n_simulations})", end="", flush=True)
+            if sim == n_simulations - 1:
+                print()  # Newline at completion
+                
         # 1. Simulate Group Stage
         winners, runners, thirds = simulate_group_stage(groups)
         

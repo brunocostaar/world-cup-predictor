@@ -19,7 +19,7 @@ def main():
     train_models()
     
     # 3. Run Monte Carlo Simulation of the Tournament (Fase 2: Prediction)
-    sim_runs = 10000
+    sim_runs = 1000000
     df_res = run_monte_carlo(n_simulations=sim_runs)
     
     print("\n" + "=" * 80)
