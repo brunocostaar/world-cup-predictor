@@ -1,0 +1,122 @@
+home_team,away_team,home_rank,away_rank,home_value_m,away_value_m,home_form,away_form,home_goals,away_goals
+Argentina,France,3,4,650,1000,0.8,0.73,3,3
+France,Morocco,4,22,1000,250,0.8,0.87,2,0
+Argentina,Croatia,3,12,650,300,0.8,0.73,3,0
+England,France,5,4,1200,1000,0.87,0.73,1,2
+Morocco,Portugal,22,9,250,900,0.87,0.8,1,0
+Netherlands,Argentina,8,3,750,650,0.73,0.8,2,2
+Croatia,Brazil,12,1,300,1000,0.73,0.87,1,1
+Japan,Croatia,24,12,150,300,0.8,0.73,1,1
+Brazil,South Korea,1,28,1000,150,0.87,0.67,4,1
+Portugal,Switzerland,9,15,900,250,0.8,0.67,6,1
+Ecuador,Senegal,44,18,120,220,0.6,0.67,1,2
+Iran,United States,20,16,45,280,0.53,0.6,0,1
+Saudi Arabia,Mexico,51,13,20,200,0.47,0.67,1,2
+Poland,Argentina,26,3,250,650,0.53,0.8,0,2
+Canada,Morocco,41,22,150,250,0.4,0.87,1,2
+Croatia,Belgium,12,2,300,600,0.73,0.6,0,0
+Costa Rica,Germany,49,11,15,850,0.4,0.6,2,4
+Japan,Spain,24,7,150,800,0.8,0.8,2,1
+Tunisia,France,30,4,40,1000,0.47,0.73,1,0
+Australia,Denmark,38,10,35,350,0.67,0.53,1,0
+Poland,Saudi Arabia,26,51,250,20,0.53,0.47,2,0
+Argentina,Mexico,3,13,650,200,0.8,0.67,2,0
+Spain,Germany,7,11,800,850,0.8,0.6,1,1
+Belgium,Morocco,2,22,600,250,0.6,0.87,0,2
+Croatia,Canada,12,41,300,150,0.73,0.4,4,1
+England,United States,5,16,1200,280,0.87,0.6,0,0
+France,Denmark,4,10,1000,350,0.73,0.53,2,1
+Argentina,Saudi Arabia,3,51,650,20,0.8,0.47,1,2
+Denmark,Tunisia,10,30,350,40,0.53,0.47,0,0
+Mexico,Poland,13,26,200,250,0.67,0.53,0,0
+France,Australia,4,38,1000,35,0.73,0.67,4,1
+Germany,Japan,11,24,850,150,0.6,0.8,1,2
+Spain,Costa Rica,7,49,800,15,0.8,0.4,7,0
+Belgium,Canada,2,41,600,150,0.6,0.4,1,0
+Switzerland,Cameroon,15,43,250,120,0.67,0.47,1,0
+Uruguay,South Korea,14,28,400,150,0.73,0.67,0,0
+Portugal,Ghana,9,61,900,200,0.8,0.53,3,2
+Brazil,Serbia,1,21,1000,280,0.87,0.67,2,0
+England,Iran,5,20,1200,45,0.87,0.53,6,2
+Senegal,Netherlands,18,8,220,750,0.67,0.73,0,2
+United States,Wales,16,19,280,180,0.6,0.53,1,1
+Qatar,Ecuador,50,44,15,120,0.4,0.6,0,2
+Spain,England,8,5,800,1200,0.87,0.8,2,1
+Netherlands,England,10,5,750,1200,0.73,0.8,1,2
+France,Spain,4,8,1000,800,0.8,0.87,1,2
+France,Portugal,4,9,1000,900,0.8,0.8,0,0
+Portugal,Spain,9,8,900,800,0.8,0.87,0,0
+England,Switzerland,5,15,1200,250,0.8,0.67,1,1
+Germany,Scotland,11,36,850,160,0.6,0.67,5,1
+Germany,Hungary,11,32,850,150,0.6,0.6,2,0
+Spain,Italy,8,9,800,750,0.87,0.73,1,0
+Croatia,Albania,10,66,350,50,0.67,0.47,2,2
+Croatia,Italy,10,9,350,750,0.67,0.73,1,1
+Switzerland,Italy,15,9,250,750,0.67,0.73,2,0
+Germany,Denmark,11,21,850,320,0.6,0.6,2,0
+England,Slovakia,5,45,1200,110,0.8,0.53,2,1
+Romania,Netherlands,46,10,80,750,0.53,0.73,0,3
+Austria,Türkiye,25,40,260,200,0.73,0.6,1,2
+England,Switzerland,5,15,1200,250,0.8,0.67,1,1
+Netherlands,Türkiye,10,40,750,200,0.73,0.6,2,1
+Spain,Germany,8,11,800,850,0.87,0.6,2,1
+Netherlands,England,10,5,750,1200,0.73,0.8,1,2
+Brazil,Colombia,5,12,943,280,0.8,0.87,1,1
+Colombia,Uruguay,12,11,280,480,0.87,0.73,1,0
+Argentina,Canada,1,49,799,180,0.8,0.67,2,0
+Uruguay,Canada,11,49,480,180,0.73,0.67,2,2
+Argentina,Colombia,1,12,799,280,0.8,0.87,1,0
+Brazil,Argentina,5,1,943,799,0.8,0.8,0,1
+Uruguay,Brazil,11,5,480,943,0.73,0.8,2,0
+Colombia,Brazil,12,5,280,943,0.87,0.8,2,1
+Paraguay,Brazil,56,5,120,943,0.47,0.8,1,0
+Ecuador,Chile,31,42,240,80,0.6,0.47,1,0
+Chile,Canada,42,49,80,180,0.47,0.67,0,0
+Peru,Chile,48,42,40,80,0.4,0.47,0,0
+Argentina,Peru,1,48,799,40,0.8,0.4,2,0
+Morocco,Angola,12,85,350,30,0.87,0.4,1,0
+Morocco,Mauritania,12,105,350,15,0.87,0.33,0,0
+Senegal,Gabon,20,82,280,50,0.67,0.47,3,0
+Senegal,Benin,20,95,280,35,0.67,0.4,1,0
+Egypt,New Zealand,37,104,140,15,0.5,0.2,1,0
+Egypt,Croatia,37,10,140,350,0.5,0.67,2,4
+Algeria,Bolivia,43,84,190,15,0.4,0.3,3,2
+Algeria,South Africa,43,59,190,25,0.4,0.4,3,3
+Tunisia,Croatia,41,10,50,350,0.27,0.67,0,0
+Tunisia,New Zealand,41,104,50,15,0.27,0.2,0,0
+Norway,Czechia,47,36,592,120,0.67,0.73,1,2
+Norway,Slovakia,47,45,592,110,0.67,0.53,1,1
+Bosnia and Herzegovina,Ukraine,74,22,70,320,0.53,0.73,1,2
+Greece,Kazakhstan,49,100,150,20,0.6,0.33,5,0
+Wales,Finland,29,60,180,45,0.6,0.47,4,1
+Poland,Estonia,30,123,250,8,0.53,0.13,5,1
+Georgia,Luxembourg,76,87,150,30,0.53,0.4,2,0
+Spain,Colombia,8,12,800,280,0.87,0.87,0,1
+Colombia,Romania,12,46,280,80,0.87,0.53,3,2
+Ecuador,Italy,31,9,240,750,0.6,0.73,0,2
+Venezuela,Italy,52,9,70,750,0.47,0.73,1,2
+Guatemala,Ecuador,103,31,10,240,0.2,0.6,0,2
+Japan,North Korea,21,115,260,10,0.87,0.27,1,0
+South Korea,Thailand,23,101,180,12,0.6,0.33,1,1
+Thailand,South Korea,101,23,12,180,0.33,0.6,0,3
+Australia,Lebanon,24,115,40,8,0.53,0.27,2,0
+Lebanon,Australia,115,24,8,40,0.27,0.53,0,5
+Iraq,Philippines,58,139,12,5,0.47,0.13,1,0
+Philippines,Iraq,139,58,5,12,0.13,0.47,0,5
+Saudi Arabia,Tajikistan,53,99,25,10,0.47,0.33,1,0
+Uzbekistan,Hong Kong,64,150,35,5,0.27,0.13,2,0
+Hong Kong,Uzbekistan,150,64,5,35,0.13,0.27,0,3
+Jordan,Pakistan,71,195,15,3,0.07,0.0,3,0
+Pakistan,Jordan,195,71,3,15,0.0,0.07,0,3
+United States,Mexico,13,16,320,200,0.8,0.53,2,0
+Panama,Mexico,45,16,25,200,0.67,0.53,0,3
+United States,Jamaica,13,55,320,80,0.8,0.47,3,1
+Canada,Trinidad and Tobago,49,101,180,10,0.73,0.3,2,0
+Costa Rica,Honduras,54,78,25,45,0.4,0.33,3,1
+New Zealand,Tunisia,104,41,15,50,0.2,0.27,0,0
+Argentina,El Salvador,1,81,799,8,0.8,0.33,3,0
+Argentina,Costa Rica,1,54,799,25,0.8,0.4,3,1
+El Salvador,Honduras,81,78,8,45,0.33,0.33,1,1
+Peru,Nicaragua,48,135,40,12,0.4,0.2,2,0
+Peru,Dominican Republic,48,150,40,8,0.4,0.13,4,1
+France,Chile,4,42,1000,80,0.8,0.47,3,2
